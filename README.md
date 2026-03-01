@@ -17,7 +17,7 @@ An end-to-end Python pipeline for Monocular Visual Odometry, GNSS (GPS) sensor f
 
 ## Project Structure
 
-\`\`\`text
+```text
 Geo-Anchored-3DGS/
 ├── data/                   # KITTI Dataset sequence folder (ignored in git)
 ├── src/
@@ -27,29 +27,29 @@ Geo-Anchored-3DGS/
 ├── main.py                 # Core SLAM loop and visualization
 ├── requirements.txt        # Python dependencies
 └── README.md
-\`\`\`
+```
 
 ## Installation & Setup
 
 1. **Clone the repository:**
-   \`\`\`bash
+   ```bash
    git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
    cd YOUR_REPO_NAME
-   \`\`\`
+   ```
 
 2. **Install dependencies:**
-   \`\`\`bash
+   ```bash
    pip install -r requirements.txt
-   \`\`\`
+   ```
 
 3. **Dataset Preparation:**
    * Download the [KITTI Odometry Dataset](http://www.cvlibs.net/datasets/kitti/eval_odometry.php).
    * Extract `sequence 00` into the `data/kitti_sequence_00` directory. Ensure `image_02` and `oxts` (if using Raw GPS data) are present.
 
 4. **Run the SLAM Pipeline:**
-   \`\`\`bash
+   ```bash
    python main.py
-   \`\`\`
+   ```
 
 ## Roadmap / Next Steps
 
