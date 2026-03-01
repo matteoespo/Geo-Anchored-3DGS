@@ -1,0 +1,11 @@
+# Dataset
+data/
+*.mp4
+*.png
+*.jpg
+
+# Python and Environments
+__pycache__/
+*.pyc
+.env
+env
