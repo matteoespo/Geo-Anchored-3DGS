@@ -101,7 +101,7 @@ if __name__ == "__main__":
 
     print("Dummy dataset created!\n")
     
-    # --- Actual Test ---
+    # Actual Test
     print("Initializing Dataloader...")
     loader = KittiDataloader(base_path)
     print(f"Total frames found: {len(loader)}")
